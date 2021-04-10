@@ -3,6 +3,7 @@ package com.sitare.constraintlayoutapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import coil.load
+import coil.size.Scale
 import com.sitare.constraintlayoutapp.databinding.ActivityUserProfileBinding
 
 class UserProfileActivity : AppCompatActivity() {
@@ -14,14 +15,19 @@ class UserProfileActivity : AppCompatActivity() {
 
         val user = User(
             "Android User",
-            "https://www.flaticon.com/svg/vstatic/svg/3790/3790849.svg?token=exp=1618065082~hmac=c1c3e7fbd5b55b787b3cb78e1e14010d"
+            "https://www.shareicon.net/data/512x512/2017/01/06/868320_people_512x512.png"
         )
+        //https://www.flaticon.com/svg/vstatic/svg/3790/3790849.svg?token=exp=1618065082~hmac=c1c3e7fbd5b55b787b3cb78e1e14010d
+        //https://www.shareicon.net/data/512x512/2017/01/06/868320_people_512x512.png
 
-        binding.userTextView.text = user.username
-        binding.userImageView.load(user.photoURL)
+        //DATA BINDING OLMADAN
+        /*binding.userTextView.text = user.username
+        binding.userImageView.load(user.photoURL) {
+            crossfade(750)
+            scale(Scale.FILL)
+        } */
+
+        binding.user = user
 
     }
-
-
-
 }
