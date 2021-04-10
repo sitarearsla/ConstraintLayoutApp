@@ -2,6 +2,7 @@ package com.sitare.constraintlayoutapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import coil.load
 import com.sitare.constraintlayoutapp.databinding.ActivityUserProfileBinding
 
 class UserProfileActivity : AppCompatActivity() {
@@ -17,6 +18,7 @@ class UserProfileActivity : AppCompatActivity() {
         )
 
         binding.userTextView.text = user.username
+        binding.userImageView.load(user.photoURL)
 
     }
 
