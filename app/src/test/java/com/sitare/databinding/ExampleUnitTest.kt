@@ -1,4 +1,4 @@
-package com.sitare.constraintlayoutapp
+package com.sitare.databinding
 
 import org.junit.Test
 

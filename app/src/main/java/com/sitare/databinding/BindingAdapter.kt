@@ -1,4 +1,4 @@
-package com.sitare.constraintlayoutapp
+package com.sitare.databinding
 
 import android.graphics.Color
 import android.view.View

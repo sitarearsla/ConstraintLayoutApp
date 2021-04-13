@@ -1,10 +1,8 @@
-package com.sitare.constraintlayoutapp
+package com.sitare.databinding
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import coil.load
-import coil.size.Scale
-import com.sitare.constraintlayoutapp.databinding.ActivityUserProfileBinding
+import com.sitare.databinding.databinding.ActivityUserProfileBinding
 
 class UserProfileActivity : AppCompatActivity() {
     private lateinit var binding: ActivityUserProfileBinding

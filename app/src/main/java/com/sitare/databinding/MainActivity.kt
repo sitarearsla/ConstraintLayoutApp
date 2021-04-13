@@ -1,4 +1,4 @@
-package com.sitare.constraintlayoutapp
+package com.sitare.databinding
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
