@@ -1,4 +1,5 @@
 package com.sitare.databinding.databinding;
+import com.sitare.databinding.R;
 import com.sitare.databinding.BR;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
